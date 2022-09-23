@@ -1,4 +1,103 @@
-img {
-  max-width: 50px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FDFCFB;
+}
+
+header {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 4em 0;
+}
+header p {
+  max-width: 30ch;
+  font-size: 24px;
+  margin: 20px;
+}
+header img {
+  max-width: 90px;
+  max-height: 90px;
   border-radius: 50%;
+  margin: 20px;
+}
+
+h2 {
+  max-width: 300px;
+  margin: 0 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projects .project {
+  border: 2px solid #404040;
+  border-radius: 2%;
+  margin: 20px 35px;
+  max-width: 300px;
+}
+.projects .project .desktop-bar {
+  border-bottom: 2px solid #404040;
+  height: 20px;
+  border-radius: 2%;
+  display: flex;
+}
+.projects .project .desktop-bar .circle {
+  background-color: #404040;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin: 2.5px;
+}
+.projects .project h3, .projects .project p, .projects .project .right {
+  margin: 30px;
+}
+.projects .project h3 {
+  max-width: 18ch;
+  font-size: 24px;
+}
+.projects .project p {
+  font-size: 16px;
+}
+.projects .project .right {
+  margin: 20px;
+  text-align: right;
+}
+.projects .project .right button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  text-align: left;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    margin: 0;
+  }
+  header, main {
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    max-width: 70vw;
+  }
+  header p {
+    font-size: 36px;
+  }
+  header img {
+    max-width: 140px;
+    max-height: 140px;
+  }
+  main {
+    max-width: 70vw;
+  }
 }/*# sourceMappingURL=style.css.map */
