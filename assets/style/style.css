@@ -4,14 +4,14 @@
 }
 
 body {
-  background-color: #FDFCFB;
-  color: #404040;
+  background-color: rgb(239, 239, 239);
+  color: #252525;
 }
 
 header {
-  max-width: 300px;
+  max-width: 340px;
   margin: 0 auto;
-  padding: 4em 0;
+  padding: 3em 0;
 }
 header p {
   max-width: 30ch;
@@ -25,9 +25,8 @@ header img {
   margin: 20px;
 }
 
-h2 {
-  max-width: 300px;
-  margin: 0 20px;
+main {
+  padding: 0 0 40px;
 }
 
 .projects {
@@ -36,19 +35,19 @@ h2 {
   justify-content: center;
 }
 .projects .project {
-  border: 2px solid #404040;
+  border: 2px solid #252525;
   border-radius: 2%;
   margin: 20px 35px;
   max-width: 300px;
 }
 .projects .project .desktop-bar {
-  border-bottom: 2px solid #404040;
+  border-bottom: 2px solid #252525;
   height: 20px;
   border-radius: 2%;
   display: flex;
 }
 .projects .project .desktop-bar .circle {
-  background-color: #404040;
+  background-color: #252525;
   border-radius: 50%;
   width: 15px;
   height: 15px;
@@ -70,8 +69,18 @@ h2 {
 }
 .projects .project .right a {
   text-decoration: none;
-  color: #404040;
+  color: #252525;
   font-weight: bold;
+}
+
+footer {
+  max-width: 200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+footer a svg {
+  fill: #252525;
 }
 
 @media screen and (min-width: 600px) {

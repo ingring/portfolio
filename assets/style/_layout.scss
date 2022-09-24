@@ -9,9 +9,9 @@ body {
 }
 
 header {
-    max-width: 300px;
+    max-width: 340px;
     margin: 0 auto;
-    padding: 4em 0;
+    padding: 3em 0;
 
     p {
         // margin: 30px;
@@ -28,9 +28,8 @@ header {
     }
 }
 
-h2 {
-    max-width: 300px;
-    margin: 0 20px;
+main {
+    padding: 0 0 40px;
 }
 
 .projects {
@@ -39,20 +38,20 @@ h2 {
     justify-content: center;
 
     .project {
-        border: 2px solid #404040;
+        border: 2px solid $primary-color-dark;
         border-radius: 2%;
         margin: 20px 35px;
         max-width: 300px;
         // padding: 20px;
 
         .desktop-bar {
-            border-bottom: 2px solid #404040;
+            border-bottom: 2px solid $primary-color-dark;
             height: 20px;
             border-radius: 2%;
             display:flex;
 
             .circle {
-                background-color: #404040;
+                background-color: $primary-color-dark;
                 border-radius: 50%;
                 width: 15px;
                 height: 15px;
@@ -78,9 +77,22 @@ h2 {
 
             a {
                 text-decoration: none;
-                color: #404040;
+                color: $primary-color-dark;
                 font-weight: bold;
             }
+        }
+    }
+}
+
+footer {
+    max-width: 200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+
+    a {
+        svg {
+            fill: $primary-color-dark;
         }
     }
 }
