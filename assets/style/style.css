@@ -5,6 +5,7 @@
 
 body {
   background-color: #FDFCFB;
+  color: #404040;
 }
 
 header {
@@ -67,14 +68,10 @@ h2 {
   margin: 20px;
   text-align: right;
 }
-.projects .project .right button {
-  background: none;
-  border: none;
+.projects .project .right a {
+  text-decoration: none;
+  color: #404040;
   font-weight: bold;
-  min-width: -webkit-fit-content;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
-  text-align: left;
 }
 
 @media screen and (min-width: 600px) {
@@ -88,7 +85,7 @@ h2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    max-width: 70vw;
+    max-width: 60vw;
   }
   header p {
     font-size: 36px;

@@ -76,12 +76,10 @@ h2 {
             margin: 20px;
             text-align: right;
 
-            button {
-                background: none;
-                border: none;
+            a {
+                text-decoration: none;
+                color: #404040;
                 font-weight: bold;
-                min-width: fit-content;
-                text-align: left;
             }
         }
     }
