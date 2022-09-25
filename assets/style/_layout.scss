@@ -80,19 +80,29 @@ main {
                 color: $primary-color-dark;
                 font-weight: bold;
             }
+
+            a:hover {
+                opacity: .5;
+            }
         }
     }
 }
 
 footer {
     max-width: 200px;
-    margin: 20px auto;
+    margin: 20px auto 30px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
+    border-top: solid 2px $primary-color-dark;
 
     a {
         svg {
             fill: $primary-color-dark;
         }
+    }
+
+    a:hover {
+        opacity: .5;
     }
 }
