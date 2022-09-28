@@ -3,7 +3,7 @@ This is my portfolio, a very easy layout with only a overview of my projects and
 
 ## Process
 I started the process with making wireframes in figma. 
-![alt wireframes](img/wireframes.png)
+![alt wireframes](assets/img/wireframes.png)
 
 ## Visit the website
 https://ingring.github.io/portfolio/
