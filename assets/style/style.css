@@ -57,10 +57,10 @@ main {
   height: 15px;
   margin: 2.5px;
 }
-.projects .project h3, .projects .project p, .projects .project .right {
+.projects .project h2, .projects .project p, .projects .project .right {
   margin: 30px;
 }
-.projects .project h3 {
+.projects .project h2 {
   max-width: 18ch;
   font-size: 24px;
 }
