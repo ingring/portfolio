@@ -13,11 +13,16 @@ header {
     margin: 0 auto;
     padding: 3em 0;
 
-    p {
+    h1 {
         // margin: 30px;
         max-width: 30ch;
         font-size: 24px;
         margin: 20px;
+        font-weight: normal;
+
+        span {
+            font-weight: bold;
+        }
     }
     
     img {
